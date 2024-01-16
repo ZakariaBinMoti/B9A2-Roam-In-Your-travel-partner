@@ -67,7 +67,7 @@ body {
 .Explore-section {
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     border-radius: 16px;
     height: 500px;
     display: flex;
@@ -75,6 +75,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
+    background-position: center;
 }
 
 .Explore-section-div {
@@ -155,12 +156,6 @@ body {
     font-weight: 700;
     cursor: pointer;
 }
-
-
-.hide {
-    display: none;
-}
-
 
 
 
@@ -322,7 +317,7 @@ body {
 
 .choose-us p {
     color: rgba(19, 19, 24, 0.70);
-    font-family: Mulish;
+    font-family: 'Mulish';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -648,6 +643,14 @@ hr {
 }
 
 @media screen and (max-width: 992px) and (min-width: 600px) {
+    body {
+        margin: 30px 30px;
+    }
+
+    .input1 {
+        padding: 1rem 150px 1rem 15px;
+        margin: 0px;
+    }
     .hamburger-icon {
         display: none;
     }
@@ -656,12 +659,36 @@ hr {
         flex-direction: column;
         gap: 20px;
     }
+
+    .input-field-container,
+    .place-div,
+    .choose-midle,
+    .Packages-div {
+        flex-direction: column;
+    }
+
+    .grid .first-row,
+    .second-row,
+    .third-row {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
 }
 
 
 @media screen and (max-width: 600px) {
     body {
         margin: 20px 20px;
+    }
+
+    .web-name img {
+        width: 25%;
+    }
+
+    .web-name h3 {
+        font-size: 22px;
     }
 
     .navigation {
@@ -714,4 +741,51 @@ hr {
         flex-direction: column;
         gap: 20px;
     }
+
+    #firstp {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    #secondp {
+        font-weight: 800;
+        font-size: 22px;
+        padding: 0px;
+        margin: 5px;
+    }
+
+    .position-card {
+        width: 214px;
+        height: 80px;
+    }
+
+    .place-content h3 {
+        line-height: 40px;
+        font-size: 25px;
+    }
+
+    .destination-title h3 {
+        font-size: 25px;
+    }
+
+    .packages-title h3 {
+        font-size: 25px;
+    }
+
+    .choose-us .div1 h3 {
+        font-size: 25px;
+    }
+
+    .Newsletter-content .ipt1,
+    .ipt2 {
+        padding: 16px 5rem 16px 20px;
+    }
+
+
+
+    .input1 {
+        padding: 1rem 90px 1rem 15px;
+        margin: 0px;
+    }
+    
 }
