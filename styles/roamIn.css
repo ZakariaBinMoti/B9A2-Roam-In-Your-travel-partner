@@ -153,6 +153,7 @@ body {
     background: #FF5400;
     color: #FFF;
     font-weight: 700;
+    cursor: pointer;
 }
 
 
@@ -197,7 +198,22 @@ margin-bottom: 50px;
     margin-bottom: 24px;
 }
 
+.destination-img{
+    color: #FFF;
+font-family: 'Mulish';
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+position: relative;
+}
 
+.img-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 
 /* choose us  */
@@ -320,6 +336,7 @@ background-color: rgba(251, 181, 99, 0.05);
     border-radius: 8px;
     font-family: 'Mulish';
     font-weight: 800;
+    cursor: pointer;
 }
 
 
@@ -403,6 +420,7 @@ background-color: rgba(251, 181, 99, 0.05);
     font-weight: 800;
     border: none;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 
