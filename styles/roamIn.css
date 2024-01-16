@@ -1,0 +1,83 @@
+/* import font  */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,800;1,400;1,800&display=swap');
+
+body {
+    max-width: 1170px;
+    margin: 20px auto;
+    border: 1px solid red;
+}
+
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.web-name {
+    display: flex;
+    align-items: center;
+}
+
+.web-name h3 {
+    margin-left: 1rem;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.web-name h3 span {
+    color: #FF5400;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: 'Mulish';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 2.75rem;
+}
+
+#home-nav {
+    color: #FF5400;
+    font-weight: 700;
+}
+
+.hamburger-icon .fa{
+    color: black;
+    font-size: 1.5rem;
+    padding: 30px;
+}
+
+
+
+
+@media screen and (min-width: 992px) {
+    .hamburger-icon {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 600px) {
+    .hamburger-icon {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .navigation {
+        display: none;
+    }
+}
