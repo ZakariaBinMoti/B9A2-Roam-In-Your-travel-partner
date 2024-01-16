@@ -166,54 +166,138 @@ body {
 
 /* destination  */
 
-.destination-title h3{
+.destination-title h3 {
     color: #131318;
-text-align: center;
-font-family: 'Mulish';
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-margin-top: 50px;
+    text-align: center;
+    font-family: 'Mulish';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 50px;
 }
 
-.destination-title p{
+.destination-title p {
     color: rgba(19, 19, 24, 0.70);
-text-align: center;
-font-family: 'Mulish';
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px;
-margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 50px;
 }
 
-.grid img{
+.grid img {
     width: 100%;
 }
 
-.grid .first-row, .second-row, .third-row{
+.grid .first-row,
+.second-row,
+.third-row {
     display: flex;
     justify-content: space-between;
     margin-bottom: 24px;
 }
 
-.destination-img{
+.destination-img {
     color: #FFF;
-font-family: 'Mulish';
-font-size: 28px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-position: relative;
+    font-family: 'Mulish';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    position: relative;
 }
 
-.img-text{
+.img-text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+
+
+
+
+/* our packages  */
+
+.packages-title h3 {
+    color: #131318;
+    text-align: center;
+    font-family: 'Mulish';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 80px 0px 0px 0px;
+}
+
+.packages-title p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.Packages-div {
+    display: flex;
+    gap: 20px;
+}
+
+.Packages-div img {
+    width: 100%;
+}
+
+.Packages-div h5 {
+    color: #5A5A5D;
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 20px 0px 15px 0px;
+    padding: 0px;
+}
+
+.Packages-div h3 {
+    color: #131318;
+    font-family: 'Mulish';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Packages-div p {
+    color: #5A5A5D;
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.Packages-div span {
+    font-weight: 800;
+}
+
+.Packages-div div {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+
+    background-color: rgba(251, 181, 99, 0.05);
+    padding: 20px;
+}
+
+
 
 
 /* choose us  */
@@ -246,18 +330,20 @@ position: relative;
     /* 162.5% */
 }
 
-.choose-us .div1{
+.choose-us .div1 {
     text-align: center;
     padding: 20px;
     max-width: 573px;
 }
-.choose-us .div4, .div2{
+
+.choose-us .div4,
+.div2 {
     max-width: 573px;
     border-radius: 16px;
     padding: 30px;
-border: 1px solid rgba(251, 181, 99, 0.20);
+    border: 1px solid rgba(251, 181, 99, 0.20);
 
-background-color: rgba(251, 181, 99, 0.05);
+    background-color: rgba(251, 181, 99, 0.05);
 }
 
 .choose-us .div3 {
@@ -542,14 +628,14 @@ hr {
 }
 
 
-.popular ul>li{
+.popular ul>li {
     color: rgba(19, 19, 24, 0.70);
 
-font-family: 'Mulish';
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px;
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
 }
 
 
@@ -602,13 +688,16 @@ line-height: 26px;
     }
 
     .input-field-container,
-    .place-div, .choose-midle {
+    .place-div,
+    .choose-midle,
+    .Packages-div {
         flex-direction: column;
     }
 
     .choose-midle {
         width: 100%;
     }
+
     .Newsletter-div {
         flex-direction: column;
         gap: 20px;
@@ -619,7 +708,9 @@ line-height: 26px;
         width: 100%;
     }
 
-    .grid .first-row, .second-row, .third-row{
+    .grid .first-row,
+    .second-row,
+    .third-row {
         flex-direction: column;
         gap: 20px;
     }
